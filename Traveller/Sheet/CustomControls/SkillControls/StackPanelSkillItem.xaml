@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Traveller.Sheet.CustomControls.SkillControls.StackPanelSkillItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Traveller.Sheet.CustomControls.SkillControls"
+             mc:Ignorable="d" Height="222.048" Width="490.73"
+            >
+    <Grid Background="White" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Name="col1"></ColumnDefinition>
+            <ColumnDefinition Name="col2"></ColumnDefinition>
+            <ColumnDefinition Name="col4"></ColumnDefinition>
+            <ColumnDefinition Name="col5"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Name="row1"></RowDefinition>
+            <RowDefinition Name="row2"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Name="lblSkillName" Grid.Column="0" Grid.ColumnSpan="2" Content="SkillName" ></Label>
+    </Grid>
+</UserControl>

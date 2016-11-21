@@ -1,0 +1,34 @@
+﻿<Window x:Class="Traveller.Sheet.CustomControls.SheetChooseSkill"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Traveller.Sheet.CustomControls"
+        xmlns:data="clr-namespace:Traveller.Data"
+        mc:Ignorable="d"
+        Title="SheetChooseSkill" Height="425.631" Width="740.898" SizeToContent="Height">
+    <ScrollViewer>
+        <Grid>
+            <TreeView x:Name="tvSkillList" HorizontalAlignment="Left" Margin="10,10,0,10" Width="143">
+                <TreeView.ItemTemplate>
+                    <HierarchicalDataTemplate DataType="{x:Type data:Skill}" ItemsSource="{Binding Specialties}">
+                        <TextBlock Text="{Binding Name}" />
+                    </HierarchicalDataTemplate>
+                </TreeView.ItemTemplate>
+                <TreeView.ItemContainerStyle>
+                    <Style>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Learnable}" Value="False">
+                                <Setter Property="Control.Background"
+                                Value="Red"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TreeView.ItemContainerStyle>
+
+            </TreeView>
+            <TextBox x:Name="tbDesc" Margin="158,10,10,42" TextWrapping="Wrap" Text="" IsReadOnly="True"/>
+            <Button x:Name="btChoose" Content="Choose" Margin="0,0,10,10" Height="22" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" Click="btChoose_Click"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

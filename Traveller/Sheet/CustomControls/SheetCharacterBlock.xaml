@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Traveller.Sheet.CustomControls.SheetCharacterBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Traveller.Sheet.CustomControls"
+             xmlns:xceed="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" Width="400" Height="175.454">
+    <Viewbox StretchDirection="Both" Stretch="Fill">
+        <Grid Background="White" Width="400" Height="175">
+            <Label Name="lblName" Content="Name: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"></Label>
+            <Label Name="lblHomeworld" Content="Homeworld: " HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"></Label>
+            <Label Name="lblSpecies" Content="Species: " HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top"></Label>
+            <Label Name="lblDescription" Content="Description: " HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"></Label>
+            <Label Name="lblAge" Content="Age: " HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top"></Label>
+            <Label Name="lblRad" Content="Rad. Dose: " HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"></Label>
+            <TextBox Name="tbName" Margin="0,10,10,0" HorizontalAlignment="Right" Width="302" Height="26" VerticalAlignment="Top"></TextBox>
+            <TextBox Name="tbHomeworld" Margin="0,36,10,0" HorizontalAlignment="Right" Width="302" Height="26" VerticalAlignment="Top"></TextBox>
+            <TextBox Name="tbSpecies" Margin="0,62,10,0" HorizontalAlignment="Right" Width="302" Height="26" VerticalAlignment="Top"></TextBox>
+            <TextBox Name="tbDescription" Margin="0,88,10,0" HorizontalAlignment="Right" Width="302" Height="26" VerticalAlignment="Top"></TextBox>
+            <TextBox Name="tbAge" Margin="0,114,10,0" HorizontalAlignment="Right" Width="302" Height="26" VerticalAlignment="Top"></TextBox>
+            <TextBox Name="tbRad" Margin="0,140,10,0" HorizontalAlignment="Right" Width="302" Height="26" VerticalAlignment="Top"></TextBox>
+        </Grid>
+    </Viewbox>
+</UserControl>

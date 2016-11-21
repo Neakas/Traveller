@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfSkill xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Skill>
+    <Name>Admin</Name>
+    <Description>This Skill covers bureaucracies and administration of all
+sorts, including the navigation of bureaucratic obstacles
+or disasters. It also covers tracking inventories, ship
+manifests and other records.
+Avoiding Close Examination of Papers: Average (8+)
+Admin check (1D x 10 seconds, EDU or SOC).
+Dealing with Police Harassment: Difficult (10+) Admin
+check (1D x 10 minutes, EDU or SOC).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Advocate</Name>
+    <Description>Advocate gives a knowledge of common legal codes and
+practises, especially interstellar law. It also gives the
+Traveller experience in oratory, debate and public speaking,
+making it an excellent Skill for lawyers and politicians.
+Arguing in Court: Opposed Advocate check (1D days,
+EDU or SOC).
+Debating an Argument: Opposed Advocate check (1D x
+10 minutes, INT).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Animals</Name>
+    <Description>This Skill, rare on industrialised or technologically
+advanced worlds, is for the care of animals.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Handling</Name>
+        <SkillName>Animals</SkillName>
+        <Description>The Traveller knows how to handle an
+animal and ride those trained to bear a rider.
+Unusual animals raise the difficulty of the check.
+Riding a Horse into Battle: Difficult (10+) Animals
+(handling) check (1D seconds, DEX). If successful, the
+Traveller can control the horse for a number of minutes
+equal to the Effect before needing to make another check.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Veterinary</Name>
+        <SkillName>Animals</SkillName>
+        <Description>The Traveller is trained in veterinary
+medicine and animal care.
+Applying Medical Care: See the Medic Skill on page
+67, but use the Animals (veterinary) Skill.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Training</Name>
+        <SkillName>Animals</SkillName>
+        <Description>The Traveller knows how to tame and train
+animals.
+Taming a Strange Alien Creature: Formidable (14+)
+Animals (training) check (1D days, INT).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Art</Name>
+    <Description>The Traveller is trained in a type of creative art.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Performer</Name>
+        <SkillName>Art</SkillName>
+        <Description>The Traveller is a trained actor, dancer or
+singer at home on the stage, screen or holo.
+Performing a Play: Average (8+) Art (performer)
+check (1D hours, EDU).
+Convincing a Person you are Actually Someone Else:
+Art (performer) check (INT) opposed by Recon check
+(INT).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Holography</Name>
+        <SkillName>Art</SkillName>
+        <Description>Recording and producing aesthetically
+pleasing and clear holographic images.
+Surreptitiously Switching on Your Recorder While in
+a Secret Meeting: Formidable (14+) Art (holography)
+check (1D seconds, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Instrument</Name>
+        <SkillName>Art</SkillName>
+        <Description>Playing a particular musical instrument,
+such a flute, piano or organ.
+Playing a Concerto: Difficult (10+) Art (instrument)
+check (1D x 10 minutes, EDU).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Visual Media</Name>
+        <SkillName>Art</SkillName>
+        <Description>Making artistic or abstract paintings or
+sculptures in a variety of media.
+Making a Statue of Someone: Difficult (10+) Art
+(visual media) check (1D days, INT).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Write</Name>
+        <SkillName>Art</SkillName>
+        <Description>Composing inspiring or interesting pieces of
+text.
+Rousing the People of a Planet by Exposing Their
+Government’s Corruption: Difficult (10+) Art (write)
+check (1D hours, INT or EDU).
+Writing the New Edition of Traveller: Formidable
+(14+) Art (write) check (1D months, INT).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Astrogation</Name>
+    <Description>This Skill is for plotting the courses of starships and
+calculating accurate jumps. See Spacecraft Operations
+chapter.
+Plotting Course to a Target World Using a Gas Giant for a
+Gravity Slingshot: Difficult (10+) Astrogation check (1D
+x 10 minutes, EDU).
+Plotting a Standard Jump: Easy (4+) Astrogation check
+(1D x 10 minutes, EDU), with DM- equal to the Jump
+distance.</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Athletics</Name>
+    <Description>The Traveller is a trained athlete and is physically fit.
+The Athletics Skill effectively augments a Traveller’s
+physical characteristics; whatever you can do with
+Strength alone you can also add your Athletics (strength)
+DM to, for example. Athletics is also the principal Skill
+used in adverse gravitational environments, specifically
+Athletics (dexterity) in low or zero-G, and Athletics
+(strength) in high-G locations.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Dexterity</Name>
+        <SkillName>Athletics</SkillName>
+        <Description>Climbing, Juggling, Throwing. For alien
+races with wings, this also includes flying.
+Climbing: Difficulty varies. Athletics (dexterity)
+check (1D x 10 seconds, DEX). So long as he
+succeeds, the Traveller’s Effect is usually irrelevant
+unless he is trying to do something while climbing,
+in which case the climbing is part of a task chain or
+multiple action.
+Sprinting: Average (8+) Athletics (dexterity) check
+(1D seconds, DEX). If the Traveller does nothing
+but sprint flat out he can cover 24 + Effect metres
+with every check. Avoiding obstacles while sprinting
+requires another Athletics (dexterity) check (Difficult,
+because he is performing a multiple action).
+High Jumping: Average (8+) Athletics (dexterity) check
+(1D seconds, DEX). The Traveller jumps a number of
+metres straight up equal to the Effect halved.
+Long Jumping: Average (8+) Athletics (dexterity)
+check (1D seconds, DEX). The Traveller jumps a
+number of metres forward equal to the Effect with a
+running start.
+Righting Yourself When Artificial Gravity Suddenly
+Fails on Board a Ship: Average (8+) Athletics
+(dexterity) check (1D seconds, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Endurance</Name>
+        <SkillName>Athletics</SkillName>
+        <Description>Long-distance running, hiking
+Long-distance Running: Average (8+) Athletics
+(endurance) check (1D x 10 minutes, END).
+Long-distance Swimming: Average (8+) Athletics
+(endurance) check (1D x 10 minutes, END).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Strength</Name>
+        <SkillName>Athletics</SkillName>
+        <Description>Feats of strength, weight-lifting.
+Arm Wrestling: Opposed Athletics (strength) check
+(1D minutes, STR).
+Feats of Strength: Average (8+) Athletics (strength)
+check (1D x 10 seconds, STR).
+Performing a Complicated Task in a High Gravity
+Environment: Difficult (10+) Athletics (strength)
+check (1D seconds, STR).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Broker</Name>
+    <Description>The Broker Skill allows a Traveller to negotiate trades
+and arrange fair deals. It is heavily used when trading
+(see the Trade chapter).
+Negotiating a Deal: Average (8+) Broker check (1D
+hours, INT).
+Finding a Buyer: Average (8+) Broker check (1D hours,
+SOC).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Carouse</Name>
+    <Description>Carousing is the art of socialising; having fun, but also
+ensuring other people have fun, and infectious good
+humour. It also covers social awareness and subterfuge
+in such situations.
+Drinking Someone Under the Table: Opposed Carouse
+check (1D hours, END). Difficulty varies by liquor.
+Gathering Rumours at a Party: Average (8+) Carouse
+check (1D hours, SOC)</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Deception</Name>
+    <Description>Deception allows a Traveller to lie fluently, disguise
+himself, perform sleight of hand and fool onlookers.
+Most underhanded ways of cheating and lying fall under
+deception.
+Convincing a Guard to let you Past Without ID: Very
+Difficult (12+) Deception check (1D minutes, INT).
+Alternatively, oppose with a Recon check.
+Palming a Credit Chit: Average (8+) Deception check
+(1D seconds, DEX).
+Disguising Yourself as a Wealthy Noble to Fool a Client:
+Difficult (10+) Deception check (1D x 10 minutes, INT
+or SOC). Alternatively, oppose with a Recon check.</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Diplomat</Name>
+    <Description>The Diplomat Skill is for negotiating deals, establishing
+peaceful contact and smoothing over social faux pas. It
+includes how to behave in high society and proper ways
+to address nobles. It is a much more formal Skill than
+Persuade.
+Greeting the Emperor Properly: Difficult (10+) Diplomat
+check (1D minutes, SOC).
+Negotiating a Peace Treaty: Average (8+) Diplomat
+check (1D days, EDU).
+Transmitting a Formal Surrender: Average (8+) Diplomat
+check (1D x 10 seconds, INT).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Drive</Name>
+    <Description>This Skill is for controlling ground vehicles of various
+types. There are several specialities.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Hovercraft</Name>
+        <SkillName>Drive</SkillName>
+        <Description>Vehicles that rely on a cushion of air and
+thrusters for motion.
+Manoeuvring a Hovercraft Through a Tight Canal:
+Difficult (10+) Drive (hovercraft) check (1D
+minutes, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Mole</Name>
+        <SkillName>Drive</SkillName>
+        <Description>For controlling vehicles that move through
+solid matter using drills or other earth-moving
+technologies, such as plasma torches or cavitation.
+Surfacing in the Right Place: Average (8+) Drive
+(mole) check (1D x 10 minutes, INT).
+Precisely Controlling a Dig to Expose a Vein of
+Minerals: Difficult (10+) Drive (mole) check (1D x
+10 minutes, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Track</Name>
+        <SkillName>Drive</SkillName>
+        <Description>For tanks and other vehicles that move on
+tracks.
+Manoeuvring (or Smashing, Depending on the
+Vehicle) Through a Forest: Difficult (10+) Drive
+(tracked) check (1D minutes, DEX).
+Driving a Tank into a Cargo Bay: Average (8+) Drive
+(tracked) check (1D x 10 seconds, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Walker</Name>
+        <SkillName>Drive</SkillName>
+        <Description>Vehicles that use two or more legs to
+manoeuvre.
+Negotiating Rough Terrain: Difficult (10+) Drive
+(walker) check (1D minutes, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Wheel</Name>
+        <SkillName>Drive</SkillName>
+        <Description>For automobiles and similar groundcars.
+Driving a Groundcar in a Short Race: Opposed Drive
+(wheeled) check (1D minutes, DEX). Longer races
+use END instead of DEX.
+Avoiding an Unexpected Obstacle on the Road: Average
+(8+) Drive (wheeled) check (1D seconds, DEX).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Electronics</Name>
+    <Description>This Skill is used to operate electronic devices such
+as computers and ship-board systems. Higher levels
+represent the ability to repair and create electronic
+devices and systems. There are several specialities.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Comms</Name>
+        <SkillName>Electronics</SkillName>
+        <Description>The use of modern telecommunications;
+opening communications channels, querying
+computer networks, jamming signals and so on, as
+well as the proper protocols for communicating with
+starports and other spacecraft.
+Requesting Landing Privileges at a Starport: Routine
+(6+) Electronic (comms) check (1D minutes, EDU).
+Accessing Publicly Available but Obscure Data Over
+Comms: Average (8+) Electronic (comms) check (1D
+x 10 minutes, EDU).
+Bouncing a Signal off Orbiting Satellite to Hide Your
+Transmitter: Difficult (10+) Electronics (comms)
+check (1D x 10 minutes, INT).
+
+Jamming a Comms System: Opposed Electronics
+(comms) check (1D minutes, INT). Difficult
+(10+) for radio, Very Difficult (12+) for laser, and
+Formidable (14+) for masers. A Traveller using a
+comms system with a higher Technology Level than
+his opponent gains DM+1 for every TL of difference.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Computers</Name>
+        <SkillName>Electronics</SkillName>
+        <Description>Using and controlling computer systems,
+and similar electronics and electrics.
+Accessing Publicly Available Data: Easy (4+)
+Electronics (computers) check (1D minutes, INT or
+EDU).
+Activating a Computer Program on a Ship’s
+Computer: Routine (6+) Electronics (computers)
+check (1D x 10 seconds, INT or EDU).
+Searching a Corporate Database for Evidence
+of Illegal Activity: Difficult (10+) Electronics
+(computers) check (1D hours, INT).
+Hacking into a Secure Computer Network:
+Formidable (14+) Electronics (computers) check
+(1D x 10 hours, INT). Hacking is aided by Intrusion
+programs and made more difficult by Security
+programs. The Effect determines the amount of data
+retrieved; failure means the targeted system may be
+able to trace the hacking attempt.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Remote Ops</Name>
+        <SkillName>Electronics</SkillName>
+        <Description>Using telepresence to remotely control
+drones, missiles, robots and other devices.
+Using a Mining Drone to Excavate an Asteroid:
+Routine (6+) Electronics (remote ops) check (1D
+hours, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Sensors</Name>
+        <SkillName>Electronics</SkillName>
+        <Description>The use and interpretation of data from
+electronic sensor devices, from observation
+satellites and remote probes to thermal imaging and
+densitometers.
+Making a Detailed Sensor Scan: Routine (6+)
+Electronics (sensors) check (1D x 10 minutes, INT
+or EDU).
+Analysing Sensor Data: Average (8+) Electronics
+(sensors) check (1D hours, INT).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Engineer</Name>
+    <Description>The Engineer Skill is used to operate and maintain
+spacecraft and advanced vehicles. Engineer can be used
+to make repairs on damaged systems on spacecraft and
+advanced vehicles. For repairs on simpler machines and
+systems, use the Mechanic Skill.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>M-Drive</Name>
+        <SkillName>Engineer</SkillName>
+        <Description>Maintaining and operating a spacecraft’s
+manoeuvre drive, as well as its artificial gravity.
+Overcharging a Thruster Plate to Increase a Ship’s
+Estimating a Ship’s Tonnage From its Observed
+Performance: Average (8+) Engineer (m-drive) check
+(1D x 10 seconds, INT).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>J-Drive</Name>
+        <SkillName>Engineer</SkillName>
+        <Description>Maintaining and operating a spacecraft’s
+Jump drive.
+Making a Jump: Easy (4+) Engineer (j-drive) check
+(1D x 10 minutes, EDU).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Life Support</Name>
+        <SkillName>Engineer</SkillName>
+        <Description>Covers oxygen generators, heating and
+lighting and other necessary life support systems.
+Safely Reducing Power to Life Support to Prolong
+a Ship’s Battery Life: Average (8+) Engineer (life
+support) check (1D minutes, EDU).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Power</Name>
+        <SkillName>Engineer</SkillName>
+        <Description>Maintaining and operating a spacecraft’s
+power plant.
+Monitoring an Enemy ship's Power Output to
+Determine its Capabilities: Difficult (10+) Engineer
+(power) check (1D minutes, INT).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Explosives</Name>
+    <Description>The Explosives Skill covers the
+use of demolition charges and
+other explosive devices, including
+assembling or disarming bombs.
+A failed Explosives check with an
+Effect of -4 or less can result in a bomb
+detonating prematurely.
+
+Planting Charges to Collapse
+a Wall in a Building: Average
+(8+) Explosives check (1D x 10
+minutes, EDU).
+Planting a Breaching Charge:
+Average (8+) Explosives check (1D
+x 10 seconds, EDU). The damage
+from the explosive is multiplied by
+the Effect.
+Disarming a Bomb Equipped with
+Anti-Tamper Trembler Detonators:
+Formidable (14+) Explosives check
+(1D minutes, DEX).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <SkillName>Explosives</SkillName>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Flyer</Name>
+    <Description>The various specialities of this Skill cover
+different types of flying vehicles. Flyers
+only work in an atmosphere; vehicles that
+can leave the atmosphere and enter orbit
+generally use the Pilot Skill.
+
+Landing Safely: Routine (6+) Flyer check (1D minutes, DEX).
+Racing Another Flyer: Opposed Flyer check (1D x 10
+minutes, DEX).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Airship</Name>
+        <SkillName>Flyer</SkillName>
+        <Description>Used for airships, dirigibles and other
+powered lighter than air craft.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Grav</Name>
+        <SkillName>Flyer</SkillName>
+        <Description>This covers air/rafts, grav belts and other
+vehicles that use gravitic technology.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Ornithopter</Name>
+        <SkillName>Flyer</SkillName>
+        <Description>For vehicles that fly through the use of
+flapping wings.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Rotor</Name>
+        <SkillName>Flyer</SkillName>
+        <Description>For helicopters, tilt-rotors and aerodynes.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Wing</Name>
+        <SkillName>Flyer</SkillName>
+        <Description>For jets, vectored thrust aircraft and
+aeroplanes using a lifting body.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Gambler</Name>
+    <Description>The Traveller is familiar with a wide variety of gambling
+games, such as poker, roulette, blackjack, horse-racing,
+sports betting and so on, and has an excellent grasp of
+statistics and probability. Gambler increases the rewards
+from Benefit Rolls, giving the Traveller DM+1 to his cash
+rolls if he has Gambler 1 or better.
+
+A Casual Game of Poker: Opposed Gambler check (1D
+hours, INT).
+Picking the Right Horse to Bet On: Average (8+)
+Gambler check (1D minutes, INT).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Gun Combat</Name>
+    <Description>The Gun Combat Skill covers a variety of ranged weapons.
+See Combat chapter for details on using guns in combat.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Archaic</Name>
+        <SkillName>Gun Combat</SkillName>
+        <Description>For primitive weapons that are not thrown,
+such as bows and blowpipes.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Energy</Name>
+        <SkillName>Gun Combat</SkillName>
+        <Description>Using advanced energy weapons like laser
+pistols or plasma rifles.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Slug</Name>
+        <SkillName>Gun Combat</SkillName>
+        <Description>Weapons that fire a solid projectile such as the
+autorifle or gauss rifle.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Gunner</Name>
+    <Description>The various specialities of this Skill deal with the operation
+of ship-mounted weapons in space combat. See Spacecraft
+Operations chapter for more details. Most Travellers have
+smaller ships equipped solely with turret weapons.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Turret</Name>
+        <SkillName>Gunner</SkillName>
+        <Description>Operating turret-mounted weapons on board
+a ship.
+Firing a Turret at an Enemy Ship: Average (8+)
+Gunner (turret) check (1D seconds, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Ortillery</Name>
+        <SkillName>Gunner</SkillName>
+        <Description>A contraction of Orbital Artillery – using
+a ship’s weapons for planetary bombardment or
+attacks on stationary targets.
+Firing Ortillery: Average (8+) Gunner (ortillery) check
+(1D minutes, INT).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Screen</Name>
+        <SkillName>Gunner</SkillName>
+        <Description>Activating and using a ship’s energy screens
+like Black Globe generators or meson screens.
+Activating a Screen to Intercept Enemy Fire: Difficult
+(10+) Gunner (screen) check (1D seconds, DEX).</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Capital</Name>
+        <SkillName>Gunner</SkillName>
+        <Description>Operating bay or spinal mount weapons on
+board a ship.
+Firing a Spinal Mount Weapon: Average (8+) Gunner
+(capital) check (1D minutes, INT).</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Heavy Weapons</Name>
+    <Description>The Heavy Weapons Skill covers man-portable and larger
+weapons that cause extreme property damage, such as
+rocket launchers, artillery and large plasma weapons.
+
+Firing an Artillery Piece at a Visible Target: Average (8+)
+Heavy Weapons (artillery) check (1D seconds, DEX).
+Firing an Artillery Piece Using Indirect Fire: Difficult (10+)
+Heavy Weapons (artillery) check (1D x 10 seconds, INT).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Artillery</Name>
+        <SkillName>Heavy Weapons</SkillName>
+        <Description>Fixed guns, mortars and other indirect-fire
+weapons.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Man Portable</Name>
+        <SkillName>Heavy Weapons</SkillName>
+        <Description>Missile launchers, flamethrowers and
+man portable fusion and plasma.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Vehicle</Name>
+        <SkillName>Heavy Weapons</SkillName>
+        <Description>Large weapons typically mounted on
+vehicles or strongpoints such as tank guns and
+autocannon.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Investigate</Name>
+    <Description>The Investigate Skill incorporates keen observation,
+forensics, and detailed analysis.
+Searching a Crime Scene For Clues: Average (8+)
+Investigate check (1D x 10 minutes, INT).
+Watching a Bank of Security Monitors in a Starport,
+Watching for a Specific Criminal: Difficult (10+)
+Investigate check (1D hours, INT).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Jack-of-All-Trades</Name>
+    <Description>The Jack-of-All-Trades Skill works differently to other
+Skills. It reduces the unSkilled penalty a Traveller
+receives for not having the appropriate Skill by one
+for every level of Jack-of-All-Trades. For example, if a
+Traveller does not have the Pilot Skill, he suffers DM-3 to
+all Pilot checks. If that Traveller has Jack-of-All-Trades
+2, then the penalty is reduced by 2 to DM-1. With Jackof-
+All-Trades 3, a Traveller can totally negate the penalty
+for being unSkilled.
+There is no benefit for having Jack-of-All-Trades 0 or
+Jack-of-All-Trades 4 or more.</Description>
+    <Specialties />
+    <CanLearn>false</CanLearn>
+    <CanImprove>false</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Language</Name>
+    <Description>There are numerous different Language specialities,
+each one covering reading and writing a different
+language. All Travellers can speak and read their
+native language without needing the Language Skill,
+and automated computer translator programs mean
+Language Skills are not always needed on other
+worlds. Having Language 0 implies the Traveller has a
+smattering of simple phrases in several languages.
+
+Specialities
+There are, of course, as many specialities of Language
+as there are actual languages. Those presented here are
+examples from the Third Imperium setting.
+
+Ordering a Meal, Asking for Basic Directions: Routine
+(6+) Language check (1D seconds, EDU).
+Holding a Simple Conversation: Average (8+) Language
+check (1D x 10 seconds, EDU).
+Understanding a Complex Technical Document or
+Report: Very Difficult (12+) Language check (1D
+minutes, EDU).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Anglic</Name>
+        <SkillName>Language</SkillName>
+        <Description>The common trade language of the Third
+Imperium, derived originally from the English spoken in
+the Rule of Man.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Vilani</Name>
+        <SkillName>Language</SkillName>
+        <Description>The language spoken by the Vilani of the First
+Imperium; the ‘Latin’ of the Third Imperium.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Zdetl</Name>
+        <SkillName>Language</SkillName>
+        <Description>The Zhodani spoken language.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Oynprith</Name>
+        <SkillName>Language</SkillName>
+        <Description>The Droyne ritual language.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Leadership</Name>
+    <Description>The Leadership Skill is for directing, inspiring and
+rallying allies and comrades. A Traveller may make a
+Leadership action in combat, as detailed on page 72.
+Shouting an Order: Average (8+) Leadership check (1D
+seconds, SOC).
+Rallying Shaken Troops: Difficult (10+) Leadership
+check (1D seconds, SOC).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Mechanic</Name>
+    <Description>The Mechanic Skill allows a Traveller to maintain and
+repair most equipment – some advanced equipment
+and spacecraft components require the Engineer Skill.
+Unlike the narrower and more focussed Engineer or
+Science Skills, Mechanic does not allow a Traveller to
+build new devices or alter existing ones – it is purely
+for repairs and maintenance but covers all types of
+equipment.
+Repairing a Damaged System in the Field: Average (8+)
+Mechanic check (1D minutes, INT or EDU).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Medic</Name>
+    <Description>The Medic Skill covers emergency first aid and battlefield
+triage as well as diagnosis, treatment, surgery and longterm
+care. See Injury and Recovery on page 47.
+First Aid: Average (8+) Medic check (1D minutes, EDU).
+The patient regains lost characteristic points equal to
+the Effect.
+Treat Poison or Disease: Average (8+) Medic check (1D
+hours, EDU).
+Long-term Care: Average (8+) Medic check (1D hours,
+EDU).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Melee</Name>
+    <Description>The Melee Skill covers attacking in hand-to-hand combat
+and the use of suitable weapons.
+
+Swinging a Sword: Average (8+) Melee (blade) check
+(1D seconds, STR or DEX).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Unarmed</Name>
+        <SkillName>Melee</SkillName>
+        <Description>Punching, kicking and wrestling; using
+improvised weapons in a bar brawl.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Blade</Name>
+        <SkillName>Melee</SkillName>
+        <Description>Attacking with swords, rapiers, blades and
+other edged weapons.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Bludgeon</Name>
+        <SkillName>Melee</SkillName>
+        <Description>Attacking with maces, clubs, staves and
+so on.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Natural</Name>
+        <SkillName>Melee</SkillName>
+        <Description>Weapons that are part of an alien or
+creature, such as claws or teeth.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Navigation</Name>
+    <Description>Navigation is the planetside counterpart of astrogation,
+covering plotting courses and finding directions on the
+ground.
+Plotting a Course Using an Orbiting Satellite Beacon:
+Average (8+) Navigation check (1D x 10 minutes, INT
+or EDU).
+Avoiding Getting Lost in Thick Jungle: Difficult (10+)
+Navigation check (1D hours, INT).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Persuade</Name>
+    <Description>Persuade is a more casual, informal version of Diplomat.
+It covers fast talking, bargaining, wheedling and
+bluffing. It also covers bribery or intimidation.
+Bluffing Your Way Past a Guard: Opposed Persuade
+check (1D minutes, INT or SOC).
+Haggling in a Bazaar: Opposed Persuade check (1D
+minutes, INT or SOC).
+Intimidating a Thug: Opposed Persuade check (1D
+minutes, STR or SOC).
+Asking the Alien Space Princess to Marry You: Formidable
+(14+) Persuade check (1D x 10 minutes, SOC).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Pilot</Name>
+    <Description>The Pilot Skill specialities cover different forms of
+spacecraft. See Spacecraft Operations chapter for more
+details.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Small Craft</Name>
+        <SkillName>Pilot</SkillName>
+        <Description>Shuttles and other craft under 100 tons.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Spacecraft</Name>
+        <SkillName>Pilot</SkillName>
+        <Description>Shuttles and other craft under 100 tons.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Capital Ships</Name>
+        <SkillName>Pilot</SkillName>
+        <Description>Battleships and other ships over 5,000 tons.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Profession</Name>
+    <Description>A Traveller with a Profession Skill is trained in producing
+useful goods or services. There are many different
+Profession specialities, but each one works the same
+way – the Traveller can make a Profession check to earn
+money on a planet that supports that trade. The amount
+of money raised is Cr250 x the Effect of the check per
+month. Unlike other Skills with specialties, levels in
+the Profession Skill do not grant the ability to use other
+specialties at level 0. Each specialty must be learned
+individually. Someone with a Profession Skill of 0 has a
+general grasp of working for a living but little experience
+beyond the most menial jobs.
+There are a huge range of potential specialities for this
+Skill, one for every possible profession in the universe.
+Some examples suitable to a science fiction setting are
+given here. Also note that on some worlds other Skills,
+such as Animals or Computer, may be used to earn a
+living in the same manner as Profession Skills.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Belter</Name>
+        <SkillName>Profession</SkillName>
+        <Description>Mining asteroids for valuable ores and
+minerals.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Biologicals</Name>
+        <SkillName>Profession</SkillName>
+        <Description>Engineering and managing artificial
+organisms.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Civil Engineering</Name>
+        <SkillName>Profession</SkillName>
+        <Description>Designing structures and buildings.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Construction</Name>
+        <SkillName>Profession</SkillName>
+        <Description>Building orbital habitats and
+megastructures.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Hydroponics</Name>
+        <SkillName>Profession</SkillName>
+        <Description>Growing crops in hostile environments.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Polymers</Name>
+        <SkillName>Profession</SkillName>
+        <Description>Designing and using polymers.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Recon</Name>
+    <Description>A Traveller trained in Recon is able to scout out dangers
+and spot threats, unusual objects or out of place people.
+Working Out the Routine of a Trio of Guard Patrols:
+Average (8+) Recon check (1D x 10 minutes, INT).
+Spotting the Sniper Before he Shoots You: Recon check
+(1D x 10 seconds, INT) opposed by Stealth (DEX) check.</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Science</Name>
+    <Description>The Science Skill covers not just knowledge but also
+practical application of that knowledge where such
+practical application is possible. There are a large range
+of specialities.
+
+Remembering a Commonly Known Fact: Routine (6+)
+Science check (1D minutes, EDU).
+Researching a Problem Related to a Field of Science:
+Average (8+) Science check (1D days, INT).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Archaeology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of ancient civilisations,
+including the previous Imperiums and Ancients. It also
+covers techniques of investigation and excavations.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Astronomy</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of stars and celestial pheonomina.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Biology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of living organisms.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Chemistry</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of matter at the atomic,
+molecular, and macromolecular levels.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Cosmology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of universe and its creation.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Cybernetics</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of blending living and
+synthetic life.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Economics</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of trade and markets.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Genetics</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of genetic codes and
+engineering.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>History</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of the past, as seen through
+documents and records as opposed to physical artefacts.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Linguistics</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of languages.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Philosophy</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of beliefs and religions.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Physics</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of the fundamental forces.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Planetology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of planet formation and
+evolution.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Psionicology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of psionic powers and
+phenomena.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Psychology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of thought and society.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Robotics</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of robot construction and use.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Sophontology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of intelligent living
+creatures.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Xenology</Name>
+        <SkillName>Science</SkillName>
+        <Description>The study of alien life forms.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Seafarer</Name>
+    <Description>The Seafarer Skill covers all manner of watercraft and
+ocean travel.</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Ocean Ships</Name>
+        <SkillName>Seafarer</SkillName>
+        <Description>For motorised sea-going
+vessels.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Personal</Name>
+        <SkillName>Seafarer</SkillName>
+        <Description>Used for very small waterborne
+craft such as canoes and rowboats.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Sail</Name>
+        <SkillName>Seafarer</SkillName>
+        <Description>This Skill is for wind-driven watercraft.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Submarine</Name>
+        <SkillName>Seafarer</SkillName>
+        <Description>For vehicles that travel underwater.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Stealth</Name>
+    <Description>A Traveller trained in the Stealth Skill is adept at staying
+unseen, unheard, and unnoticed.
+Sneaking Past a Guard: Stealth check (1D x 10 seconds,
+DEX) opposed by Recon (INT) check.
+Avoiding Detection by a Security Patrol: Stealth check
+(1D minutes, DEX) opposed by Recon (INT) check.</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Steward</Name>
+    <Description>The Steward Skill allows the Traveller to serve and
+care for nobles and high-class passengers. It covers
+everything from proper address and behaviour to
+cooking and tailoring, as well as basic management
+Skills. A Traveller with the Steward Skill is necessary
+on any ship offering High Passage. See Spacecraft
+Operations chapter for more details.
+Cooking a Fine Meal: Average (8+) Steward check (1D
+hours, EDU).
+Calming Down an Angry Duke who has Just Been Told
+you Will not be Jumping to his Destination on Time:
+Difficult (10+) Steward check (1D minutes, SOC).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Streetwise</Name>
+    <Description>A Traveller with the Streetwise Skill understands the urban
+environment and the power structures in society. On his homeworld and in related systems, he knows criminal
+contacts and fixers. On other worlds, he can quickly intuit
+power structures and can fit into local underworlds.
+Finding a Dealer in Illegal Materials or Technologies:
+Average (8+) Streetwise check (1D x 10 hours, INT).
+Evading a Police Search: Streetwise check (1D x 10
+minutes, INT) opposed by Recon (INT) check.</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Survival</Name>
+    <Description>The Survival Skill is the wilderness counterpart of the urban
+Streetwise Skill – the Traveller is trained to survive in the
+wild, build shelters, hunt or trap animals, avoid exposure
+and so forth. He can recognise plants and animals of
+his homeworld and related planets, and can pick up on
+common clues and traits even on unfamiliar worlds.
+Gathering Supplies in the Wilderness to Survive for a
+Week: Average (8+) Survival check (1D days, EDU).
+Identifying a Poisonous Plant: Average (8+) Survival
+check (1D x 10 seconds, INT or EDU).</Description>
+    <Specialties />
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Tactics</Name>
+    <Description>This Skill covers tactical planning and decision making,
+from board games to squad level combat to fleet
+engagements. For use in combat, see Combat chapter.
+
+Developing a Strategy for Attacking an Enemy Base:
+Average (8+) Tactics (military) check (1D x 10 hours,
+INT).</Description>
+    <Specialties>
+      <SkillSpecialty>
+        <Name>Military</Name>
+        <SkillName>Tactics</SkillName>
+        <Description>Co-ordinating the attacks of foot troops or
+vehicles on the ground.</Description>
+      </SkillSpecialty>
+      <SkillSpecialty>
+        <Name>Naval</Name>
+        <SkillName>Tactics</SkillName>
+        <Description>Co-ordinating the attacks of a spacecraft or
+fleet.</Description>
+      </SkillSpecialty>
+    </Specialties>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+  <Skill>
+    <Name>Vacc Suit</Name>
+    <Description>The Vacc Suit Skill allows a Traveller to wear and operate
+spacesuits and environmental suits. A Traveller will
+rarely need to make Vacc Suit checks under ordinary
+circumstances – merely possessing the Skill is enough. If
+the Traveller does not have the requisite Vacc Suit Skill
+for the suit he is wearing, he suffers DM-2 to all Skill
+checks made while wearing a suit for each missing level.
+This Skill also permits the character to operate advanced
+battle armour.
+Performing a Systems Check on Battle Dress: Average
+(8+) Vacc Suit check (1D minutes, EDU).</Description>
+    <CanLearn>true</CanLearn>
+    <CanImprove>true</CanImprove>
+  </Skill>
+</ArrayOfSkill>

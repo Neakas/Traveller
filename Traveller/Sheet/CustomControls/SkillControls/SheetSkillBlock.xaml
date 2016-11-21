@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Traveller.Sheet.CustomControls.SheetSkillBlock"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Traveller.Sheet.CustomControls"
+             mc:Ignorable="d" Height="Auto" Width="605">
+    <Viewbox StretchDirection="Both" Stretch="Fill">
+        <Grid Background="White" Width="Auto" Height="Auto">
+            <Border BorderThickness="1" BorderBrush="Black" Margin="0,27,0,0" HorizontalAlignment="Left" Width="580" Height="553" VerticalAlignment="Top">
+                <DataGrid x:Name="skillDataGrid" AutoGenerateColumns="True" ItemsSource="{Binding}" CanUserAddRows="False">
+
+                </DataGrid>
+
+            </Border>
+            <Button FontStretch="Normal" x:Name="btAddSkill" Content="Add Skill" Click="BtAddSkill_OnClick" Width="Auto" Height="Auto" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Grid>
+    </Viewbox>
+</UserControl>
